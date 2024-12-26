@@ -21,7 +21,7 @@ const ProductsCard = ({ items }) => {
   
   return (
     <>
-      <img src={items.image} className="products_image" style={{ width: "100%" }} />
+      <img src={items.image} className="products_image" style={{ width: "100%" }} alt=""/>
       <div className="products_details">
         <span className="title">{items.title.split(' ', 2).join(' ')}</span>
         <span className="prod-desc">

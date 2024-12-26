@@ -22,15 +22,15 @@ const Navbar = () => {
     <nav>
       <section className="top">
         <span className="headline left-m">
-          <img className="headline-logo" src={headlinelogo} />
+          <img className="headline-logo" src={headlinelogo} alt=""/>
           <span>SALE SALE SALE</span>
         </span>
         <span className="headline">
-          <img className="headline-logo" src={headlinelogo} />{" "}
+          <img className="headline-logo" src={headlinelogo} alt=""/>
           <span>SALE SALE SALE</span>
         </span>
         <span className="headline right-m">
-          <img className="headline-logo" src={headlinelogo} />{" "}
+          <img className="headline-logo" src={headlinelogo} alt=""/>
           <span>SALE SALE SALE</span>
         </span>
       </section>

@@ -14,7 +14,7 @@ import dropdown from "../Assets/arrow-right.png";
 const Footer = () => {
   const [metta, setMetta] = useState(false);
   const [quicklinks, setQuicklinks] = useState(false);
-  const[follow, setFollow]= useState(false)
+ // const[follow, setFollow]= useState(false)
   const [l1class, setL1class] = useState("l1 h75");
   const [l2class, setL2class] = useState("l2 h75");
   const [footerbtmcls, setFooterbtmcls] = useState("footer-bottom");
@@ -101,7 +101,7 @@ const Footer = () => {
                 src={dropdown}
                 className={l2icocls}
                 onClick={handleQuicklinks}
-              />
+              alt="dropdown"/>
             </div>
             {quicklinks ? (
               <>
@@ -142,7 +142,7 @@ const Footer = () => {
         <div className="footer-bottom-right">
           <div className="bot-media">
       <div className={`footer-followus ${followOpen ? 'open' : ''}`} onClick={toggleFollow}>
-        FOLLOW US {window.innerWidth <= 768 && <img src={dropdown} alt="" />}
+        FOLLOW US {window.innerWidth <= 768 && <img src={dropdown} alt="followUs" />}
       </div>
       {/* Social media icons */}
       {followOpen && (
